@@ -1,0 +1,15 @@
+<suite name="AllAnnotations_Suite">
+	<test name="AllAnnotations_Test">
+		<groups>
+			<run>
+				<include name="bus"></include>
+				<include name="car"></include>
+				<include name="truck"></include>					
+			</run>
+		</groups>
+		
+		<classes>
+			<class name="TestNG_AllAnnotations"/>
+		</classes>
+	</test> 
+</suite>
