@@ -36,7 +36,7 @@ public class TestNG_AllAnnotations {
  
         //Launch the ToolsQA Website
  
-        driver.get("http://www.toolsqa.com");
+        driver.get("www.google.com");
 	  Reporter.log("Volvo");
   }
   
