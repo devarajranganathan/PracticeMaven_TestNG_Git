@@ -20,7 +20,7 @@ public class TestNG_AllAnnotations {
   public void Volvo() {
 	  System.out.println("Volvo");
 	  WebDriver objDriver = new FirefoxDriver();
-	  objDriver.get("www.google/.com");
+	  objDriver.get("www.google.com");
 	  Reporter.log("Volvo");
   }
   
