@@ -1,5 +1,7 @@
 package TestNG;
 
+import java.util.concurrent.TimeUnit;
+
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
@@ -11,16 +13,30 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.AfterSuite;
 import org.testng.Reporter;
 import org.testng.asserts.*;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.WebDriver;
 
 public class TestNG_AllAnnotations {
   @Test(groups={"truck"},dependsOnMethods={"Ferrari"})
   public void Volvo() {
 	  System.out.println("Volvo");
-	  WebDriver objDriver = new FirefoxDriver();
-	  objDriver.get("www.google.com");
+	  
+		System.setProperty("webdriver.chrome.driver", "C://Devaraj//Installers//Selenium//Non-Mozilla Server Driver//Chrome//2.19//chromedriver.exe");
+        //WebDriver driver=new ChromeDriver(caps);
+        WebDriver driver=new ChromeDriver();
+		//driver.get("http://seleniumeasy.com");
+
+        //Put a Implicit wait, this means that any search for elements on the page could take the time the implicit wait is set for before throwing exception
+        
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        
+        // Maximize the window
+        
+        driver.manage().window().maximize();
+ 
+        //Launch the ToolsQA Website
+ 
+        driver.get("http://www.toolsqa.com");
 	  Reporter.log("Volvo");
   }
   
