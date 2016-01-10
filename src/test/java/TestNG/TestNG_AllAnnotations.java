@@ -11,11 +11,16 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.AfterSuite;
 import org.testng.Reporter;
 import org.testng.asserts.*;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.WebDriver;
 
 public class TestNG_AllAnnotations {
   @Test(groups={"truck"},dependsOnMethods={"Ferrari"})
   public void Volvo() {
 	  System.out.println("Volvo");
+	  WebDriver objDriver = new FirefoxDriver();
+	  objDriver.get("www.google/.com");
 	  Reporter.log("Volvo");
   }
   
