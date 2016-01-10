@@ -55,32 +55,32 @@ public class TestNG_AllAnnotations {
 
   @BeforeClass
   public void beforeClass() {
-	  System.out.println("Before class");	  
+	  System.out.println("To Execute Before class");	  
   }
 
   @AfterClass
   public void afterClass() {
-	  System.out.println("After class");	  
+	  System.out.println("To Execute After class");	  
   }
 
   @BeforeTest
   public void beforeTest() {
-	  System.out.println("Before Test");	  
+	  System.out.println("To Execute Before Test");	  
   }
 
   @AfterTest
   public void afterTest() {
-	  System.out.println("After test");	  
+	  System.out.println("To Execute After test");	  
   }
 
   @BeforeSuite
   public void beforeSuite() {
-	  System.out.println("Before suite");	  
+	  System.out.println("To Execute before suite");	  
   }
 
   @AfterSuite
   public void afterSuite() {
-	  System.out.println("After suite");
+	  System.out.println("To Execute after suite");
   }
 
 }
