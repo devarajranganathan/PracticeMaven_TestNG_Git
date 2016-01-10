@@ -19,7 +19,7 @@ import org.openqa.selenium.WebDriver;
 public class TestNG_AllAnnotations {
   @Test(groups={"truck"},dependsOnMethods={"Ferrari"})
   public void Volvo() {
-	  System.out.println("Volvo");
+	  System.out.println("Volvo - From Jenkins with chrome");
 	  
 		System.setProperty("webdriver.chrome.driver", "C://Devaraj//Installers//Selenium//Non-Mozilla Server Driver//Chrome//2.19//chromedriver.exe");
         //WebDriver driver=new ChromeDriver(caps);
