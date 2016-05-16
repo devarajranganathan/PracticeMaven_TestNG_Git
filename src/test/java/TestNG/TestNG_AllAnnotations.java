@@ -14,6 +14,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.Reporter;
 import org.testng.asserts.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.WebDriver;
 
 public class TestNG_AllAnnotations {
@@ -21,9 +22,9 @@ public class TestNG_AllAnnotations {
   public void Volvo() {
 	  System.out.println("Volvo - From Jenkins with chrome");
 	  
-		System.setProperty("webdriver.chrome.driver", "C://Devaraj//Installers//Selenium//Non-Mozilla Server Driver//Chrome//2.19//chromedriver.exe");
+	  System.setProperty("webdriver.chrome.driver", "C://Devaraj//Installers//Selenium//Non-Mozilla Server Driver//Chrome//2.19//chromedriver.exe");
         //WebDriver driver=new ChromeDriver(caps);
-        WebDriver driver=new ChromeDriver();
+        WebDriver driver=new FirefoxDriver();
 		//driver.get("http://seleniumeasy.com");
 
         //Put a Implicit wait, this means that any search for elements on the page could take the time the implicit wait is set for before throwing exception

@@ -17,118 +17,118 @@
       <![CDATA[Bus]]>
     </line>
   </reporter-output>
-  <suite name="TestNG.TestNG_AllAnnotations" duration-ms="174221" started-at="2016-01-10T18:54:30Z" finished-at="2016-01-10T18:57:24Z">
+  <suite name="TestNG.TestNG_AllAnnotations" duration-ms="7005" started-at="2016-01-10T22:06:58Z" finished-at="2016-01-10T22:07:05Z">
     <groups>
       <group name="car">
-        <method signature="TestNG_AllAnnotations.Maruthi()[pri:0, instance:TestNG.TestNG_AllAnnotations@186c730]" name="Maruthi" class="TestNG.TestNG_AllAnnotations"/>
-        <method signature="TestNG_AllAnnotations.Ferrari()[pri:0, instance:TestNG.TestNG_AllAnnotations@186c730]" name="Ferrari" class="TestNG.TestNG_AllAnnotations"/>
+        <method signature="TestNG_AllAnnotations.Maruthi()[pri:0, instance:TestNG.TestNG_AllAnnotations@3c342b]" name="Maruthi" class="TestNG.TestNG_AllAnnotations"/>
+        <method signature="TestNG_AllAnnotations.Ferrari()[pri:0, instance:TestNG.TestNG_AllAnnotations@3c342b]" name="Ferrari" class="TestNG.TestNG_AllAnnotations"/>
       </group> <!-- car -->
       <group name="bus">
-        <method signature="TestNG_AllAnnotations.Bus()[pri:0, instance:TestNG.TestNG_AllAnnotations@186c730]" name="Bus" class="TestNG.TestNG_AllAnnotations"/>
+        <method signature="TestNG_AllAnnotations.Bus()[pri:0, instance:TestNG.TestNG_AllAnnotations@3c342b]" name="Bus" class="TestNG.TestNG_AllAnnotations"/>
       </group> <!-- bus -->
       <group name="truck">
-        <method signature="TestNG_AllAnnotations.Volvo()[pri:0, instance:TestNG.TestNG_AllAnnotations@186c730]" name="Volvo" class="TestNG.TestNG_AllAnnotations"/>
-        <method signature="TestNG_AllAnnotations.Iveco()[pri:0, instance:TestNG.TestNG_AllAnnotations@186c730]" name="Iveco" class="TestNG.TestNG_AllAnnotations"/>
+        <method signature="TestNG_AllAnnotations.Volvo()[pri:0, instance:TestNG.TestNG_AllAnnotations@3c342b]" name="Volvo" class="TestNG.TestNG_AllAnnotations"/>
+        <method signature="TestNG_AllAnnotations.Iveco()[pri:0, instance:TestNG.TestNG_AllAnnotations@3c342b]" name="Iveco" class="TestNG.TestNG_AllAnnotations"/>
       </group> <!-- truck -->
     </groups>
-    <test name="Command line test" duration-ms="174221" started-at="2016-01-10T18:54:30Z" finished-at="2016-01-10T18:57:24Z">
+    <test name="Command line test" duration-ms="7005" started-at="2016-01-10T22:06:58Z" finished-at="2016-01-10T22:07:05Z">
       <class name="TestNG.TestNG_AllAnnotations">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:TestNG.TestNG_AllAnnotations@186c730]" name="beforeSuite" is-config="true" duration-ms="41" started-at="2016-01-10T20:54:30Z" finished-at="2016-01-10T20:54:30Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:TestNG.TestNG_AllAnnotations@3c342b]" name="beforeSuite" is-config="true" duration-ms="38" started-at="2016-01-11T00:06:58Z" finished-at="2016-01-11T00:06:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNG.TestNG_AllAnnotations@186c730]" name="beforeTest" is-config="true" duration-ms="1" started-at="2016-01-10T20:54:30Z" finished-at="2016-01-10T20:54:30Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNG.TestNG_AllAnnotations@3c342b]" name="beforeTest" is-config="true" duration-ms="1" started-at="2016-01-11T00:06:58Z" finished-at="2016-01-11T00:06:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestNG.TestNG_AllAnnotations@186c730]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-01-10T20:54:30Z" finished-at="2016-01-10T20:54:30Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestNG.TestNG_AllAnnotations@3c342b]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-01-11T00:06:58Z" finished-at="2016-01-11T00:06:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.TestNG_AllAnnotations@186c730]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-01-10T20:54:30Z" finished-at="2016-01-10T20:54:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Maruthi()[pri:0, instance:TestNG.TestNG_AllAnnotations@186c730]" name="Maruthi" duration-ms="6" started-at="2016-01-10T20:54:30Z" finished-at="2016-01-10T20:54:30Z">
+        <test-method status="PASS" signature="Maruthi()[pri:0, instance:TestNG.TestNG_AllAnnotations@3c342b]" name="Maruthi" duration-ms="5" started-at="2016-01-11T00:06:58Z" finished-at="2016-01-11T00:06:58Z">
           <reporter-output>
             <line>
               <![CDATA[Maruthi]]>
             </line>
           </reporter-output>
         </test-method> <!-- Maruthi -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.TestNG_AllAnnotations@186c730]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-01-10T20:54:30Z" finished-at="2016-01-10T20:54:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.TestNG_AllAnnotations@186c730]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-01-10T20:54:30Z" finished-at="2016-01-10T20:54:30Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.TestNG_AllAnnotations@3c342b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-01-11T00:06:58Z" finished-at="2016-01-11T00:06:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Ferrari()[pri:0, instance:TestNG.TestNG_AllAnnotations@186c730]" name="Ferrari" duration-ms="0" started-at="2016-01-10T20:54:30Z" depends-on-methods="TestNG.TestNG_AllAnnotations.Maruthi" finished-at="2016-01-10T20:54:30Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.TestNG_AllAnnotations@3c342b]" name="afterMethod" is-config="true" duration-ms="1" started-at="2016-01-11T00:06:58Z" finished-at="2016-01-11T00:06:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.TestNG_AllAnnotations@3c342b]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2016-01-11T00:06:58Z" finished-at="2016-01-11T00:06:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Ferrari()[pri:0, instance:TestNG.TestNG_AllAnnotations@3c342b]" name="Ferrari" duration-ms="1" started-at="2016-01-11T00:06:58Z" depends-on-methods="TestNG.TestNG_AllAnnotations.Maruthi" finished-at="2016-01-11T00:06:58Z">
           <reporter-output>
             <line>
               <![CDATA[Ferrari]]>
             </line>
           </reporter-output>
         </test-method> <!-- Ferrari -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.TestNG_AllAnnotations@186c730]" name="afterMethod" is-config="true" duration-ms="1" started-at="2016-01-10T20:54:30Z" finished-at="2016-01-10T20:54:30Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.TestNG_AllAnnotations@3c342b]" name="afterMethod" is-config="true" duration-ms="2" started-at="2016-01-11T00:06:58Z" finished-at="2016-01-11T00:06:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.TestNG_AllAnnotations@186c730]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-01-10T20:54:30Z" finished-at="2016-01-10T20:54:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Volvo()[pri:0, instance:TestNG.TestNG_AllAnnotations@186c730]" name="Volvo" duration-ms="174152" started-at="2016-01-10T20:54:30Z" depends-on-methods="TestNG.TestNG_AllAnnotations.Ferrari" finished-at="2016-01-10T20:57:24Z">
+        <test-method status="PASS" signature="Volvo()[pri:0, instance:TestNG.TestNG_AllAnnotations@3c342b]" name="Volvo" duration-ms="6910" started-at="2016-01-11T00:06:58Z" depends-on-methods="TestNG.TestNG_AllAnnotations.Ferrari" finished-at="2016-01-11T00:07:05Z">
           <reporter-output>
             <line>
               <![CDATA[Volvo]]>
             </line>
           </reporter-output>
         </test-method> <!-- Volvo -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.TestNG_AllAnnotations@186c730]" name="afterMethod" is-config="true" duration-ms="1" started-at="2016-01-10T20:57:24Z" finished-at="2016-01-10T20:57:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.TestNG_AllAnnotations@186c730]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-01-10T20:57:24Z" finished-at="2016-01-10T20:57:24Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.TestNG_AllAnnotations@3c342b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-01-11T00:06:58Z" finished-at="2016-01-11T00:06:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Iveco()[pri:0, instance:TestNG.TestNG_AllAnnotations@186c730]" name="Iveco" duration-ms="1" started-at="2016-01-10T20:57:24Z" depends-on-methods="TestNG.TestNG_AllAnnotations.Volvo" finished-at="2016-01-10T20:57:24Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.TestNG_AllAnnotations@3c342b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-01-11T00:07:05Z" finished-at="2016-01-11T00:07:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.TestNG_AllAnnotations@3c342b]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-01-11T00:07:05Z" finished-at="2016-01-11T00:07:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Iveco()[pri:0, instance:TestNG.TestNG_AllAnnotations@3c342b]" name="Iveco" duration-ms="0" started-at="2016-01-11T00:07:05Z" depends-on-methods="TestNG.TestNG_AllAnnotations.Volvo" finished-at="2016-01-11T00:07:05Z">
           <reporter-output>
             <line>
               <![CDATA[Iveco]]>
             </line>
           </reporter-output>
         </test-method> <!-- Iveco -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.TestNG_AllAnnotations@186c730]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-01-10T20:57:24Z" finished-at="2016-01-10T20:57:24Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.TestNG_AllAnnotations@3c342b]" name="afterMethod" is-config="true" duration-ms="1" started-at="2016-01-11T00:07:05Z" finished-at="2016-01-11T00:07:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="Bus()[pri:0, instance:TestNG.TestNG_AllAnnotations@186c730]" name="Bus" duration-ms="0" started-at="2016-01-10T20:57:24Z" depends-on-methods="TestNG.TestNG_AllAnnotations.Iveco" finished-at="2016-01-10T20:57:24Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.TestNG_AllAnnotations@3c342b]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-01-11T00:07:05Z" finished-at="2016-01-11T00:07:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Bus()[pri:0, instance:TestNG.TestNG_AllAnnotations@3c342b]" name="Bus" duration-ms="3" started-at="2016-01-11T00:07:05Z" depends-on-methods="TestNG.TestNG_AllAnnotations.Iveco" finished-at="2016-01-11T00:07:05Z">
           <reporter-output>
             <line>
               <![CDATA[Bus]]>
             </line>
           </reporter-output>
         </test-method> <!-- Bus -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.TestNG_AllAnnotations@186c730]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-01-10T20:57:24Z" finished-at="2016-01-10T20:57:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.TestNG_AllAnnotations@186c730]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-01-10T20:57:24Z" finished-at="2016-01-10T20:57:24Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.TestNG_AllAnnotations@3c342b]" name="afterMethod" is-config="true" duration-ms="1" started-at="2016-01-11T00:07:05Z" finished-at="2016-01-11T00:07:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestNG.TestNG_AllAnnotations@186c730]" name="afterClass" is-config="true" duration-ms="1" started-at="2016-01-10T20:57:24Z" finished-at="2016-01-10T20:57:24Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestNG.TestNG_AllAnnotations@3c342b]" name="afterClass" is-config="true" duration-ms="12" started-at="2016-01-11T00:07:05Z" finished-at="2016-01-11T00:07:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNG.TestNG_AllAnnotations@186c730]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-01-10T20:57:24Z" finished-at="2016-01-10T20:57:24Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNG.TestNG_AllAnnotations@3c342b]" name="afterTest" is-config="true" duration-ms="3" started-at="2016-01-11T00:07:05Z" finished-at="2016-01-11T00:07:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:TestNG.TestNG_AllAnnotations@186c730]" name="afterSuite" is-config="true" duration-ms="1" started-at="2016-01-10T20:57:26Z" finished-at="2016-01-10T20:57:26Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:TestNG.TestNG_AllAnnotations@3c342b]" name="afterSuite" is-config="true" duration-ms="1" started-at="2016-01-11T00:07:05Z" finished-at="2016-01-11T00:07:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
