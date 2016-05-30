@@ -1,6 +1,7 @@
 package TestNG;
 
 import java.util.concurrent.TimeUnit;
+import javax.swing.JOptionPane;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
@@ -21,12 +22,16 @@ public class TestNG_AllAnnotations {
   @Test(groups={"truck"},dependsOnMethods={"Ferrari"})
   public void Volvo() {
 	  System.out.println("Volvo - From Jenkins with chrome");
+      JOptionPane.showMessageDialog(null,"new message");	  
 	  
 	  System.setProperty("webdriver.chrome.driver", "C://Devaraj//Installers//Selenium//Non-Mozilla Server Driver//Chrome//2.19//chromedriver.exe");
         //WebDriver driver=new ChromeDriver(caps);
         WebDriver driver=new FirefoxDriver();
 		//driver.get("http://seleniumeasy.com");
-
+        
+        //Launch the ToolsQA Website 
+        driver.get("https://www.google.com");        
+        
         //Put a Implicit wait, this means that any search for elements on the page could take the time the implicit wait is set for before throwing exception
         
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -34,10 +39,9 @@ public class TestNG_AllAnnotations {
         // Maximize the window
         
         driver.manage().window().maximize();
+        
+        driver.close();
  
-        //Launch the ToolsQA Website
- 
-        driver.get("https://www.google.com");
 	  Reporter.log("Volvo");
   }
   
