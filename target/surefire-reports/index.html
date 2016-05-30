@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-TestNG.TestNG_AllAnnotations">
-              <span class="suite-name border-passed">TestNG.TestNG_AllAnnotations</span>
+              <span class="suite-name border-failed">TestNG.TestNG_AllAnnotations</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,7 +90,40 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">5 methods, 1 failed,  2 skipped,  2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-TestNG.TestNG_AllAnnotations" class="hide-methods failed suite-TestNG.TestNG_AllAnnotations"> (hide)</a> <!-- hide-methods failed suite-TestNG.TestNG_AllAnnotations -->
+                      <a href="#" panel-name="suite-TestNG.TestNG_AllAnnotations" class="show-methods failed suite-TestNG.TestNG_AllAnnotations"> (show)</a> <!-- show-methods failed suite-TestNG.TestNG_AllAnnotations -->
+                    </span>
+                    <div class="method-list-content failed suite-TestNG.TestNG_AllAnnotations">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG.TestNG_AllAnnotations" title="TestNG.TestNG_AllAnnotations" hash-for-method="Volvo">Volvo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-TestNG.TestNG_AllAnnotations -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-TestNG.TestNG_AllAnnotations" class="hide-methods skipped suite-TestNG.TestNG_AllAnnotations"> (hide)</a> <!-- hide-methods skipped suite-TestNG.TestNG_AllAnnotations -->
+                      <a href="#" panel-name="suite-TestNG.TestNG_AllAnnotations" class="show-methods skipped suite-TestNG.TestNG_AllAnnotations"> (show)</a> <!-- show-methods skipped suite-TestNG.TestNG_AllAnnotations -->
+                    </span>
+                    <div class="method-list-content skipped suite-TestNG.TestNG_AllAnnotations">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG.TestNG_AllAnnotations" title="TestNG.TestNG_AllAnnotations" hash-for-method="Bus">Bus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG.TestNG_AllAnnotations" title="TestNG.TestNG_AllAnnotations" hash-for-method="Iveco">Iveco</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-TestNG.TestNG_AllAnnotations -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,27 +134,12 @@
                     <div class="method-list-content passed suite-TestNG.TestNG_AllAnnotations">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TestNG.TestNG_AllAnnotations" title="TestNG.TestNG_AllAnnotations" hash-for-method="Bus">Bus</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-TestNG.TestNG_AllAnnotations" title="TestNG.TestNG_AllAnnotations" hash-for-method="Ferrari">Ferrari</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TestNG.TestNG_AllAnnotations" title="TestNG.TestNG_AllAnnotations" hash-for-method="Iveco">Iveco</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-TestNG.TestNG_AllAnnotations" title="TestNG.TestNG_AllAnnotations" hash-for-method="Maruthi">Maruthi</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TestNG.TestNG_AllAnnotations" title="TestNG.TestNG_AllAnnotations" hash-for-method="Volvo">Volvo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-TestNG.TestNG_AllAnnotations -->
@@ -136,9 +154,57 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-TestNG.TestNG_AllAnnotations" class="panel TestNG.TestNG_AllAnnotations">
-          <div class="suite-TestNG.TestNG_AllAnnotations-class-passed">
+          <div class="suite-TestNG.TestNG_AllAnnotations-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
+              <span class="class-name">TestNG.TestNG_AllAnnotations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Volvo">
+                  </a> <!-- Volvo -->
+                  <span class="method-name">Volvo</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.37.0&apos;, revision: &apos;a7c61cbd68657e133ae96672cf995890bad2ee42&apos;, time: &apos;2013-10-18 09:51:02&apos;
+System info: host: &apos;43601JNBITD018L&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_76-ea&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at TestNG.TestNG_AllAnnotations.Volvo(TestNG_AllAnnotations.java:32)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:117)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:178)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:337)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:298)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:145)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:366)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	... 35 more
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG.TestNG_AllAnnotations-class-failed -->
+          <div class="suite-TestNG.TestNG_AllAnnotations-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
               <span class="class-name">TestNG.TestNG_AllAnnotations</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -147,8 +213,29 @@
                   <a name="Bus">
                   </a> <!-- Bus -->
                   <span class="method-name">Bus</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TestNG_AllAnnotations.Bus()[pri:0, instance:TestNG.TestNG_AllAnnotations@1975490] depends on not successfully finished methods
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Iveco">
+                  </a> <!-- Iveco -->
+                  <span class="method-name">Iveco</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TestNG_AllAnnotations.Iveco()[pri:0, instance:TestNG.TestNG_AllAnnotations@1975490] depends on not successfully finished methods
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG.TestNG_AllAnnotations-class-skipped -->
+          <div class="suite-TestNG.TestNG_AllAnnotations-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNG.TestNG_AllAnnotations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="Ferrari">
@@ -158,23 +245,9 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="Iveco">
-                  </a> <!-- Iveco -->
-                  <span class="method-name">Iveco</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="Maruthi">
                   </a> <!-- Maruthi -->
                   <span class="method-name">Maruthi</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Volvo">
-                  </a> <!-- Volvo -->
-                  <span class="method-name">Volvo</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -266,17 +339,17 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Volvo')
 data.setCell(0, 2, 'TestNG.TestNG_AllAnnotations')
-data.setCell(0, 3, 22238);
+data.setCell(0, 3, 27285);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'Maruthi')
 data.setCell(1, 2, 'TestNG.TestNG_AllAnnotations')
 data.setCell(1, 3, 2);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'Iveco')
+data.setCell(2, 1, 'Ferrari')
 data.setCell(2, 2, 'TestNG.TestNG_AllAnnotations')
-data.setCell(2, 3, 1);
+data.setCell(2, 3, 0);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'Ferrari')
+data.setCell(3, 1, 'Iveco')
 data.setCell(3, 2, 'TestNG.TestNG_AllAnnotations')
 data.setCell(3, 3, 0);
 data.setCell(4, 0, 4)
@@ -287,7 +360,7 @@ window.suiteTableData['TestNG.TestNG_AllAnnotations']= { tableData: data, tableD
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 22 seconds</span>
+              <span class="suite-total-time">Total running time: 27 seconds</span>
               <div id="times-div-TestNG.TestNG_AllAnnotations">
               </div> <!-- times-div-TestNG.TestNG_AllAnnotations -->
             </div> <!-- times-div -->
@@ -299,12 +372,6 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">Volvo</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Volvo</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
               <span class="reporter-method-name">Ferrari</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Ferrari</span>
@@ -314,18 +381,6 @@ return data;
               <span class="reporter-method-name">Maruthi</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Maruthi</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">Bus</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Bus</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">Iveco</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Iveco</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -354,79 +409,57 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">26 ms</span>
+                <span class="method-start">25 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">33 ms</span>
+                <span class="method-start">31 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Maruthi</span>
-                <span class="method-start">34 ms</span>
+                <span class="method-start">31 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">38 ms</span>
+                <span class="method-start">34 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">44 ms</span>
+                <span class="method-start">37 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Ferrari</span>
-                <span class="method-start">45 ms</span>
+                <span class="method-start">37 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">46 ms</span>
+                <span class="method-start">37 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">49 ms</span>
+                <span class="method-start">39 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">Volvo</span>
-                <span class="method-start">49 ms</span>
+                <span class="method-start">39 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">22288 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">22289 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">Iveco</span>
-                <span class="method-start">22290 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">22291 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">22292 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">Bus</span>
-                <span class="method-start">22292 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">22292 ms</span>
+                <span class="method-start">27369 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">22298 ms</span>
+                <span class="method-start">27370 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">22300 ms</span>
+                <span class="method-start">27371 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">22376 ms</span>
+                <span class="method-start">27435 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
