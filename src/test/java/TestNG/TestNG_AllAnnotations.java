@@ -27,7 +27,6 @@ public class TestNG_AllAnnotations {
 	  System.setProperty("webdriver.chrome.driver", "C://Devaraj//Installers//Selenium//Non-Mozilla Server Driver//Chrome//2.19//chromedriver.exe");
         //WebDriver driver=new ChromeDriver(caps);
         WebDriver driver=new FirefoxDriver();
-		//driver.get("http://seleniumeasy.com");
         
         //Launch the ToolsQA Website 
         driver.get("https://www.google.com");        
@@ -36,7 +35,7 @@ public class TestNG_AllAnnotations {
         
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         
-        // Maximize the window        
+        // Maximize the windown        
         driver.manage().window().maximize();
         
 	  Reporter.log("Volvo");

@@ -50,8 +50,7 @@
                         	<suiteXmlFile>AllAnnotations.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     </configuration>
-                    </plugin>
-                    
+                    </plugin>                    
                <plugin>
                	<artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
