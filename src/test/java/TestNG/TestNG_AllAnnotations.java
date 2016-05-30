@@ -40,8 +40,6 @@ public class TestNG_AllAnnotations {
         
         driver.manage().window().maximize();
         
-        driver.close();
- 
 	  Reporter.log("Volvo");
   }
   
