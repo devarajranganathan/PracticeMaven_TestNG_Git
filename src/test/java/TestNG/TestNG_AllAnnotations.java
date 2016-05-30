@@ -36,8 +36,7 @@ public class TestNG_AllAnnotations {
         
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         
-        // Maximize the window
-        
+        // Maximize the window        
         driver.manage().window().maximize();
         
 	  Reporter.log("Volvo");
